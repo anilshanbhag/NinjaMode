@@ -1,0 +1,21 @@
+{
+  "name": "Ninja Mode",
+  "description": "Turn on your inner ninja by disabling all distractions.",
+  "version": "0.1",
+  "icons": {
+    "16": "ninja_16.png",
+    "128": "ninja_128.png"
+  },
+  "permissions": [
+    "webNavigation"
+  ],
+  "browser_action": {
+    "default_icon": "ninja_38.png",
+    "default_title": "Ninja Mode",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
