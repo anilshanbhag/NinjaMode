@@ -26,6 +26,6 @@ function restore_options() {
   });
 }
 
-var form = document.querySelector('#submit');
-form.addEventListener('click', save_options);
+var form = document.getElementById('settings');
+form.onsubmit = save_options;
 document.addEventListener('DOMContentLoaded', restore_options);
