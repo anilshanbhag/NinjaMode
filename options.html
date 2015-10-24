@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ninja Mode Settings</title>
+    </head>
+    <body>
+        <h1>Ninja Mode Settings</h1>
+        <div id="settings" onsubmit="return false;">
+            Enter block patterns (one per line):
+            <textarea name="patterns" id="patterns" rows="20" cols="50"></textarea>
+
+            <label for="redirectLink">Redirect Link: <input name="redirectLink" id="redirectLink" type="text"></label>
+            <input id="submit" type="submit">
+        </div>
+        <p id="status"></p>
+        <script src="options.js"></script>
+    </body>
+</html>
